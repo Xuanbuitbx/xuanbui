@@ -1,0 +1,95 @@
+https://www.youtube.com/playlist?list=PLjsExMUCw4yLEUxqF2wzzMMyLdcoRwkPw
+https://mindxschool.notion.site/Code-for-Everyone-00fbb2a5f3444f60bd27849aa127ec7c?p=7e19215cc308437c95deb4d0167e63db&pm=s
+----------------------------------------------------
+<!-- push folder từ máy lên Git -->
+- Tạo mục trong github
+- Chyển sâng thư mục mẹ source code
+git init
+git status
+git add .
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/Xuanbuitbx/E137.tbx.git
+git push origin master <!--chú ý là master hay main-->
+
+
+
+$ git pull origin master
+
+----------------------------------------------------
+
+1. Thứ tự ưu tiên: inline > internal > external
+2. Selector specificity
+3. id (identifier), class
+4. CSS naming convention BEM (Block-Element Modifier)
+5. !important
+6. Đơn vị đo:
+- Tuyệt đối: px, pt
+- Tương đối: %, rem (phụ thuộc vào font size của phần tử gốc html khi quy đổi về px), em (phụ thuộc vào font size của
+phần tử chính phần tử hiện tại)
+7. padding: khoảng cách từ viền vào nội dung, margin
+8. width = border + padding + content
+9. box-sizing: border-box
+
+----------------------------------------------------
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Rubik', sans-serif;
+}
+.container{
+width: 100%;
+height: 800px;
+}
+
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+
+shift+alt+mũi tên : copy nhanh
+container.class-item$*4+.class-body
+thêm > là tạo cái con
+thêm ^ là tạo cái mẹ
+tạo bao nhiêu cái thì *số lượng
+lorem
+pos:a
+bx: box-sitezing:boder-box
+bgc:màu nền #fff
+w100%
+h100%
+
+--------------
+flex-box
+flex-drirection:colum-revrde (quết định căn dọc hay căn ngang)
+flex-flow: row wrap (căn dọc)
+justify=-content:flex-end (căn ngang)
+align-item:flex-start
+
+flex-grouw
+flex-shring
+
+--------------
+cnd fontawesome.com
+
+
+---------------------------
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+; font google
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+font-family: 'Rubik', sans-serif;
+
+
+
+
+update video ngày này.

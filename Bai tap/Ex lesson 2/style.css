@@ -1,0 +1,90 @@
+*{
+    margin :0;
+    padding: 0;
+    font-family: "Proxima Nova","Verdana","Avenir Next";
+    }
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    }
+h3 {
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(82, 81, 81);
+}
+p {
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(94, 94, 94);
+}
+main { 
+    background: rgb(251 250 248);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1024px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.body-text {
+    text-align: center;
+    color: #e54f00;
+    padding-bottom: 20px;
+}
+
+.avatar {
+
+    background-size:cover;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://tbx.design/file/ava.jpg) ;
+    clip-path: circle(100px at 50% 50%);
+} 
+.text-info {
+    margin-top: 30px;
+    color: #e54f00;
+}
+
+.body-info {
+    line-height:2.5;
+    margin-left: 40px;
+    list-style: none;
+}
+.line {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-bottom: 3px solid rgb(255, 255, 255)
+}
+
+.line-cot {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-bottom: 3px solid rgb(255, 255, 255)
+}
+.list {
+    margin-left: 20px;
+}
+.list-skill {
+    padding: 5px;
+}
+.tag-color {
+   
+    border-radius: 0px 0 0 10px;
+    background-color: #ff60004d;
+}
+.skill-color{
+    border-radius: px;
+    background-color: #8f0c0c05;
+}
+.cont {margin-left: 15px;
+    list-style: none;
+}

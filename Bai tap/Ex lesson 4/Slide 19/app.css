@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+}
+p {
+    font-size: 19px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+
+}
+
+.left {
+    position: absolute;
+    margin-top: 100px;
+    left: 50px;
+    width: 45%;
+    height: 500px;
+    background-color: #dae8fc;
+    border: 1px solid #022f6e;
+
+}
+
+.right {
+    position: absolute;
+    right: 45px;
+    margin-top: 100px;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(131, 131, 131);
+}
+
+.left .content {
+    width: 85%;
+    height: 100px;
+    margin: 50px 50px;
+}
+
+.left .content .h1 {
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    background-color: #ffe6cc;
+    text-align: center;
+    color: #2d2d2d;
+    border: 1px solid #c07423;
+}
+
+.left .content .t1 {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #f8cecc;
+    color: #2d2d2d;
+    border: 1px solid #c07423;
+}
+
+.left .content .bt {
+    width: 20%;
+    height: auto;
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: #1ba1e2;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+.right .map {
+    width: 100%;
+    height: auto;
+    margin: 50px 50px;
+}
+
+h2 {
+    width: 230px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.right .map .M-left {
+    position: absolute;
+    left: 30px;
+    width: 61%;
+}
+
+.right .map .M-right {
+    position: absolute;
+    right: 30px;
+}
+
+.right .map .M-left .M1-left-m1 {
+    position: absolute;
+    left: 0;
+}
+
+.right .map .M-left .M1-left-m2 {
+    position: absolute;
+    right: 0;
+}
+
+.right .map .M-right .M1-left-m3 {
+    position: absolute;
+    right: 0;
+}
+.right .map .M-left .M1-left-m1 .m1 {
+    margin-top: 50px;
+    background-color: #60a917;
+}
+.right .map .M-left .M1-left-m1 .m6 {
+    margin-top: 50px;
+    background-color: #0050ef;
+}
+
+.right .map .M-left .M1-left-m2 .m2 {
+    background-color: #008a00;
+}
+.right .map .M-left .M1-left-m2 .Center {
+    margin-top: 50px;
+    background-color: #ffe6cc;
+    color: #2d2d2d;
+}
+.right .map .M-left .M1-left-m2 .m5 {
+    margin-top: 50px;
+    background-color: #d80073;
+}
+
+.right .map .M-right .M1-left-m3 .m3 {
+    margin-top: 50px;
+    background-color: #1ba1e2;
+}
+.right .map .M-right .M1-left-m3 .m4 {
+    margin-top: 50px;
+    background-color: #a20025;
+}
+ 
+/* Bài tập 2 */
+.menu1 {
+    width: 100%;
+
+}
+.box-menu1{
+
+}
+.menu1 .box-menu1 .box-m-main {
+    margin-left: 200px;
+    width: 15%;
+    height: auto;
+    background-color: #DAE8FC;
+}
+.box-m-main-body {
+    margin: 10px;
+    padding: 10px;
+    height: 600px;
+}
+.box_menu {
+    width: 100%;
+    height: 5%;margin: 5px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fffecf;
+    color: #2d2d2d;
+    font-weight: 600;
+}
+.coppy-butom {
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+.box-m-main-body {
+    text-align: center
+
+
+}    
+.main-coppy {
+    text-align: center;
+    padding: 18px;
+   
+}
+.sub-menu{
+    width: 20px;
+    background-color: #c07423;
+}
+.box_menu2 {
+    position: relative;
+    width: 100%;
+    height: 5%;margin: 5px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fffecf;
+    color: #2d2d2d;
+    font-weight: 600;
+}
+.box_menu2:hover ul. .sub-menu{
+    background-color: #008a00;
+}  

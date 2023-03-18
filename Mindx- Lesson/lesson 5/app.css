@@ -1,0 +1,29 @@
+/* .my-div {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    border: 1px solid firebrick;
+
+
+    boder-box: giữ nguyên kích thước box
+}
+inline Không chỉnh được cao rộng */
+
+.flexbox {
+    width: 700px;
+    height: 500px;
+    display: flex;
+}
+.flexbox-item {
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content:baseline;  
+}
+
+/* khác nhau giữa justify-content và flex-direction 
+một cái theo thứ thự 1234 1 cái theo 4321 */
+
+flex-weap :noweap[]

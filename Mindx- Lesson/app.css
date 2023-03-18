@@ -1,0 +1,50 @@
+/* Viết code cho css trong file này */
+h1{
+    color: red;
+}
+
+*{
+    color: blueviolet !important;
+}
+/* ĐỘ ưu tiên của phần tử */
+p{
+    color: green;
+}
+
+/* # dùng cho ID */
+#special-heading{
+    color:aqua;
+}
+/* trong một trang chỉ có 1 id */
+.text-blue{
+    color:blue;
+}
+
+#test_text {
+    font-size: 100px;
+    font-style: normal;
+    text-decoration: line-through;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* độ ưu tiên từ trái qua phải, nếu ko tìm thấy thì ... */
+}
+
+/* Những thuộc tính - giá trị để định dạng khối nội dung (box model) */
+
+#my-box {
+
+    background-color: pink;
+    width: 100px;
+    border: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    /*  */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+

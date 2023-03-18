@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #6a6d6f;
+    font-size: 17px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    width: 100%;
+    height: 600px;
+    margin: 50px 0;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: #3c404a;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    width: 200px;
+}
+.p1 {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.box-menu {
+    width: 50%;
+    height: 700px;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+.box-menu-1 {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.menu-foot-t1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.menu-foot-1 {
+    padding: 10px 50px 5px 10px  ;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.icon-share {
+    color: #808080;
+}
+/* 
+
+
+ Concepts  Overflow 
+
+ Discussion Forums 
+
+ Reference Reactiflux Chat E?
+
+ DEV Community 1
+
+ Facebook ¡7
+
+ Twitter (7
+
+FAQ
+
+COMMUNITY MORE
+
+Code of Conduct (7 Tutorial
+
+Communtty Resources Blog
+Acknowledgements
+React Native [7
+Privacy U?
+
+Terms (7
+ */

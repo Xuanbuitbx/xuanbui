@@ -1,0 +1,17 @@
+body {
+    max-width: 0;
+}
+header {
+    position: sticky;
+}
+.aside-right, .container {
+    height: 800px;
+    display: flex;
+    align-items: stretch;
+}
+
+.content {
+    background-color: palevioletred;
+    color: red;
+    width: 100%;
+}
