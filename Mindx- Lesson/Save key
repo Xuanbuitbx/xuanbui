@@ -17,7 +17,9 @@ git fetch origin
 git branch -u origin/tbx tbx
 git remote set-head origin -a
 
-$ git pull origin master
+Git push hoàn thành
+GIt pull khi vào máy mới
+$ git pull 
 
 ----------------------------------------------------
 
