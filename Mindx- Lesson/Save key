@@ -12,7 +12,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/Xuanbuitbx/E137.tbx.git
 git push origin master <!--chú ý là master hay main-->
 
-
+git branch -m master tbx
+git fetch origin
+git branch -u origin/tbx tbx
+git remote set-head origin -a
 
 $ git pull origin master
 
