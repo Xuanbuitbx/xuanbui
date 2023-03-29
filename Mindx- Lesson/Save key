@@ -53,12 +53,18 @@ height: 800px;
         <div class="left"></div>
         <div class="right"></div>
     </div>
+<DIV>
+    class
+    SA
+</DIV>
+
+        <dd></dd>
 </body>
 
 shift+alt+mũi tên : copy nhanh
 container.class-item$*4+.class-body
 thêm > là tạo cái con
-thêm ^ là tạo cái mẹ
+thêm ^ là tạo cái mẹ thanh
 tạo bao nhiêu cái thì *số lượng
 lorem
 pos:a
@@ -79,6 +85,7 @@ flex-shring
 
 --------------
 cnd fontawesome.com
+FACEBOOK
 
 
 ---------------------------
@@ -94,8 +101,3 @@ cnd fontawesome.com
 
 font-family: 'Rubik', sans-serif;
 
-
-
-
-update video ngày này.
-yêu lẩu 6 lần
