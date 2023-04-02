@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <label for="url-input">URL:</label>
+	<input type="text" id="url-input" picchange="updateImage()">
+	<br>
+	<label for="width-input">Width:</label>
+	<input type="number" id="width-input"  picchange="updateImage()">
+	<br>
+	<label for="height-input">Height:</label>
+	<input type="number" id="height-input"  picchange="updateImage()">
+	<br>
+	<label for="border-radius-input">Border Radius:</label>
+	<input type="number" id="border-radius-input"  picchange="updateImage()">
+	<br>
+	<label for="alt-input">Alt:</label>
+	<input type="text" id="alt-input" picchange="updateImage()">
+	<br>
+	<img id="image" src="" alt="">
+</body>
+</html>

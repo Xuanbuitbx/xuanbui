@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+	<form id="register-form" onsubmit="return validateForm()">
+		<label for="full-name">Họ và tên:</label>
+		<input type="text" id="full-name" name="full-name" required>
+	  
+		<label for="gender">Giới tính:</label>
+		<select id="gender" name="gender" required>
+		  <option value="">Chọn giới tính</option>
+		  <option value="male">Nam</option>
+		  <option value="female">Nữ</option>
+		  <option value="other">Khác</option>
+		</select>
+	  
+		<label for="age">Tuổi:</label>
+		<input type="number" id="age" name="age" required>
+	  
+		<label for="address">Địa chỉ:</label>
+		<input type="text" id="address" name="address">
+	  
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+	  
+		<label for="password">Mật khẩu:</label>
+		<input type="password" id="password" name="password" required>
+	  
+		<button type="submit">Đăng ký</button>
+	  </form>
+	  
+</body>
+</html>
